@@ -17,7 +17,7 @@ In simpler terms:
 ## ⚙️ Project Functionalities:
 
 1.  **HJ Bound Calculation:**
-    *   Loads historical data on real interest rates, real per capita consumption, and real S&P returns from an Excel file (`data/Shiller_Ch26_data_modified.xlsx`).
+    *   Loads historical data on real interest rates, real per capita consumption, and real S&P returns from an Excel file (`data/Shiller_Ch26_data_modified.xlsx`) placed on the "data" folder.
     *   Prepares the data by selecting relevant columns, handling missing values, and calculating gross returns and consumption growth.
     *   Implements the formula: σ<sub>m</sub> = sqrt((1 - μ<sub>R</sub>μ<sub>m</sub>)′Σ<sup>-1</sup>(1 - μ<sub>R</sub>μ<sub>m</sub>)) to calculate the HJ Bound for a range of possible mean SDF values (μ<sub>m</sub>).
 2.  **CRRA-based SDF Derivation:**
